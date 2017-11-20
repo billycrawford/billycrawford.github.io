@@ -1,0 +1,31 @@
+body {
+    background-color: #363636;
+}
+
+h1 {
+    color: #af50a2;
+    margin-left: 20px;
+}
+
+h2 {
+    color: #af50a2;
+    margin-left: 20px;
+}
+
+table {
+    border: 1px solid #ffffff;
+    width: 800px;
+    background-color: #ffffff;
+}
+
+div.content {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 0px;
+}
+
+div.images {
+    text-align: center;
+    padding: 0px 0px;
+}
