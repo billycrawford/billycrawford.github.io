@@ -4,6 +4,13 @@ body {
     line-height: 30px;
     font-family: georgia;
     text-align: justify;
+    color: #575757;
+    background-image: url("hrtbg.jpg");
+    background-repeat: repeat;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 h1 {
@@ -36,7 +43,10 @@ div.content {
     max-width: 800px;
     margin: auto;
     background: white;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
 }
 
 div.images {
@@ -62,4 +72,50 @@ a:hover {
 a:active {
     text-decoration: none;
     color: #b1b1b1;
+}
+
+.pic {
+float: right;
+  width: auto;
+    margin: 0.5em;
+  padding: 0.5em;
+}
+
+footer {text-align: center;
+}
+
+input[type=text] {
+    width: 20%;
+    padding: 0px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    background-color: #363636;
+    color: #e1e171;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 50%;
+}
+
+select {
+    width: 20%;
+    padding: 0px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    background-color: #363636;
+    color: #e1e171;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #363636;
+    border: 2px solid #000000;
+    color: #e1e171;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
