@@ -5,6 +5,14 @@ body {
     font-family: georgia;
     text-align: justify;
     background-color: #363636;
+    color: #575757;
+    background-image: url("hrtbg.jpg");
+    background-repeat: repeat;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
 }
 
 h1 {
@@ -40,6 +48,12 @@ table {
     margin: auto;
     background-color: white;
     padding: 25px;
+    background: white;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+
 }
 
 .images {
@@ -84,13 +98,33 @@ input[type=text]:focus {
     width: 100%;
 }
 
-input[type=checkbox] {
+
+.pic {
+float: right;
+  width: auto;
+    margin: 0.5em;
+  padding: 0.5em;
+}
+
+footer {text-align: center;
+}
+
+input[type=text] {
     width: 20%;
     padding: 0px 0px;
     margin: 8px 0;
     box-sizing: border-box;
     background-color: #e666d3;
     border: 3px solid #000000;
+    border: 2px solid #000000;
+    background-color: #363636;
+    color: #e1e171;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 50%;
 }
 
 select {
@@ -111,6 +145,16 @@ input[type=submit]{
     border: 3px solid #000000;
     color: #000000;
     padding: 5px 5px;
+    border: 2px solid #000000;
+    background-color: #363636;
+    color: #e1e171;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #363636;
+    border: 2px solid #000000;
+    color: #e1e171;
+    padding: 5px 15px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
