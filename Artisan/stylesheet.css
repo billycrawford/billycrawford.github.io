@@ -18,25 +18,25 @@ body {
 }
 
 h1 {
-    color: #e666d3;
+    color: #993a8b;
     margin-left: 20px;
     font-size: 36px;
     font-family: Arial;
     text-decoration: underline overline;
     font-weight: normal;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0px #3e1b39;
+    text-shadow: 1px 1px 0px #e5e5e5;
 }
 
 h2 {
-    color: #e666d3;
+    color: #993a8b;
     margin-left: 20px;
     font-size: 25px;
     font-family: Arial;
     text-decoration: underline overline;
     font-weight: normal;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0px #3e1b39;
+    text-shadow: 1px 1px 0px #e5e5e5;
 }
 
 table {
@@ -50,11 +50,12 @@ table {
     margin: auto;
     background-color: white;
     padding: 25px;
-    background: white;
     padding-top: 0px;
     padding-right: 10px;
     padding-bottom: 0px;
     padding-left: 10px;
+    border-left: solid 10px #e8e8e8;
+    border-right: solid 10px #e8e8e8;
 
 }
 
@@ -140,22 +141,22 @@ input[type=submit]{
     background-color: #e666d3;
     border: 3px solid #000000;
     color: #000000;
-    padding: 5px 5px;
+    padding: 5px 20px;
     border: 2px solid #000000;
     background-color: #363636;
     color: #e1e171;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
-    background-color: #363636;
-    border: 2px solid #000000;
-    color: #e1e171;
-    padding: 5px 15px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-}
+
 
 p {
     text-indent: 15px;
+}
+
+.heartbg {
+    background-image: url(hrtbgbox.jpg);
+    width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+       
 }
