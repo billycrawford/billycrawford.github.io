@@ -2,18 +2,30 @@ body.home {
     margin: 0px;
     background-image:url(images/imgbg.jpg);
     background-repeat: repeat-x;
+<<<<<<< HEAD
     background-color: #94007e;
 }
 
 body.resume {
     background-color: #94007e;
+=======
+    background-color: #84887e;
+}
+
+body.resume {
+    background-color: #65626a;
+>>>>>>> origin/master
     background-image:url(images/imgbg2.jpg);
     margin: 150px 0px 0px 0px;
 }
 
 table {
     padding: 0px;
+<<<<<<< HEAD
     margin: 0px 0px 0px 0px;
+=======
+    margin: 0px 0px 0px 323px;
+>>>>>>> origin/master
     border-collapse: collapse;
 }
 
@@ -32,8 +44,13 @@ img {
 .resumetable {
     padding: 100px;
     margin: 0px auto 0px auto;
+<<<<<<< HEAD
     background-color: #000000;
     border: solid 1px #95ff2b;
+=======
+    background-color: #65626a;
+    border: solid 1px #92948f;
+>>>>>>> origin/master
 }
 
 .resumeleft {
@@ -51,7 +68,11 @@ img {
     padding-bottom: 30px;
     vertical-align: top;
     font-size: 12px;
+<<<<<<< HEAD
     color: #95ff2b;
+=======
+    color: #b8c085;
+>>>>>>> origin/master
     font-family: verdana;
     padding: 20px;
 }
@@ -71,12 +92,20 @@ p {
 }
 
 a:link {
+<<<<<<< HEAD
     color: #95ff2b;
+=======
+    color: #daee95;
+>>>>>>> origin/master
 }
 
 
 a:visited {
+<<<<<<< HEAD
     color: #ff0091;
+=======
+    color: #daee95;
+>>>>>>> origin/master
 }
 
 
@@ -86,5 +115,9 @@ a:hover {
 
 
 a:active {
+<<<<<<< HEAD
     color: #1e1e1e;
+=======
+    color: #a7a6aa;
+>>>>>>> origin/master
 }
