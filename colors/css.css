@@ -5,7 +5,7 @@ body{
 
 .col-1 {
     background-color: #39C1BD;
-    width: 33%;
+    width: 100%;
     float: left;
     height: 50%;
     text-align: center;
@@ -13,7 +13,7 @@ body{
 
 .col-2 {
     background-color: #FED406;
-    width: 33%;
+    width: 100%;
     float: left;
     height: 50%;
         text-align: center;
@@ -21,7 +21,7 @@ body{
 
 .col-3 {
     background-color: #D51560;
-    width: 33%;
+    width: 100%;
     float: left;
     height: 50%;
         text-align: center;
@@ -29,7 +29,7 @@ body{
 
 .col-4 {
     background-color: #1B4DA4;
-    width: 33%;
+    width: 100%;
     float: left;
     height: 50%;
         text-align: center;
@@ -37,7 +37,7 @@ body{
 
 .col-5 {
     background-color: #7A1563;
-    width: 33%;
+    width: 100%;
     float: left;
     height: 50%;
         text-align: center;
@@ -45,7 +45,7 @@ body{
 
 .col-6 {
     background-color: #149576;
-    width: 33%;
+    width: 100%;
     float: left;
     height: 50%;
         text-align: center;
